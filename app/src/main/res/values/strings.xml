@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quizora</string>
+
+    <!-- Destination labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_my_quizzes">My Quizzes</string>
+    <string name="nav_create_quiz">Create Quiz</string>
+    <string name="nav_ghost_matches">Ghost Matches</string>
+    <string name="nav_ai_tests">AI Tests</string>
+    <string name="nav_leaderboard">Leaderboard</string>
+    <string name="nav_personas">Personas</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about">About</string>
+    <string name="nav_privacy">Privacy Policy</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- Home (redesigned front page) -->
+    <string name="home_title">Quizora</string>
+    <string name="home_streak_label">Daily streak</string>
+    <string name="home_streak_days">%1$d</string>
+    <string name="home_streak_unit">day streak</string>
+    <string name="home_streak_best">Best: %1$d days</string>
+    <string name="home_streak_active">%1$d active days</string>
+    <string name="home_streak_hint_done">Today is done. Come back tomorrow!</string>
+    <string name="home_streak_hint_todo">Finish a quiz today to keep it going.</string>
+    <string name="home_streak_hint_start">Finish a quiz today to start your streak.</string>
+    <string name="home_streak_loading">Loading your streak…</string>
+    <string name="home_open_streaks">Open activity and streaks</string>
+    <string name="home_open_profile">Open your profile</string>
+
+    <!-- Home cards -->
+    <string name="card_ghost_title">Ghost Match</string>
+    <string name="card_ghost_desc">Race a rival\'s recorded run, anytime</string>
+    <string name="card_creator_title">Creator Quizzes</string>
+    <string name="card_creator_desc">Create and play community quizzes</string>
+    <string name="card_persona_title">Persona Results</string>
+    <string name="card_persona_desc">Discover your quiz personality</string>
+    <string name="card_ai_title">AI Power Test</string>
+    <string name="card_ai_desc">Generate a custom test with AI</string>
+
+    <string name="drawer_header_title">Quizora</string>
+    <string name="drawer_header_subtitle">Compete. Create. Learn.</string>
+
+    <!-- SET YOUR OWN PRIVACY POLICY URL HERE -->
+    <string name="privacy_policy_url" translatable="false">https://example.com/privacy</string>
+
+    <string name="coming_soon">This screen is built in a later phase</string>
+    <string name="logout_phase2">Logout is enabled in Phase 2 (Authentication)</string>
+
+    <!-- Class features: drawer labels -->
+    <string name="nav_class_leaderboard">Class Leaderboard</string>
+    <string name="nav_activity">Activity &amp; Streaks</string>
+    <string name="nav_class_analytics">Class Analytics</string>
+
+    <!-- Class code (register + settings) -->
+    <string name="hint_class_code_optional">Class code (optional)</string>
+    <string name="helper_class_code">Students with the same code are ranked together. Leave empty to join GENERAL.</string>
+    <string name="settings_class_title">MY CLASS</string>
+    <string name="settings_class_current">Current class: %1$s</string>
+    <string name="settings_class_hint">Class code</string>
+    <string name="settings_class_save">Change class</string>
+    <string name="settings_class_note">Class codes are 2-20 letters, numbers, - or _. Your quiz history stays with you and moves to the new class.</string>
+    <string name="settings_class_saved">Class changed to %1$s</string>
+
+    <!-- Shared -->
+    <string name="loading">Loading…</string>
+    <string name="class_label">Class %1$s</string>
+    <string name="local_note">Calculated on this device from saved results, so it works offline. Updated %1$s.</string>
+    <string name="local_scope_note">Only students signed in on this device are included.</string>
+    <string name="pct_format">%1$d%%</string>
+
+    <!-- Class leaderboard -->
+    <string name="lb_title">Class leaderboard</string>
+    <string name="period_today">Today</string>
+    <string name="period_week">7 days</string>
+    <string name="period_month">30 days</string>
+    <string name="period_all">All time</string>
+    <string name="mode_points">Points</string>
+    <string name="mode_accuracy">Accuracy</string>
+    <string name="lb_how_ranked">How is this ranked?</string>
+    <string name="lb_how_title">Ranking rules</string>
+    <string name="lb_ok">Got it</string>
+    <string name="lb_empty_none">No quiz results in this period yet.\nFinish a quiz to appear here!</string>
+    <string name="lb_empty_alone">You are the only student here so far.\nShare your class code so classmates can join.</string>
+    <string name="lb_your_rank">Your rank</string>
+    <string name="lb_your_rank_value">#%1$d of %2$d</string>
+    <string name="lb_unranked_accuracy">Not ranked yet: accuracy ranking needs at least %1$d quizzes in this period (you have %2$d).</string>
+    <string name="lb_unranked_none">Not ranked yet: complete a quiz in this period to appear.</string>
+    <string name="lb_row_meta">%1$d quizzes · %2$d%% accuracy</string>
+    <string name="lb_points_value">%1$d pts</string>
+    <string name="lb_accuracy_value">%1$d%%</string>
+    <string name="lb_you">You</string>
+    <string name="lb_participants">%1$d students in this period</string>
+    <string name="lb_showing_top">Showing top %1$d</string>
+
+    <!-- Activity & streaks -->
+    <string name="st_current">Current streak</string>
+    <string name="st_max">Longest streak</string>
+    <string name="st_active_days">Active days</string>
+    <string name="st_quizzes">Quizzes done</string>
+    <string name="st_days_unit">%1$d days</string>
+    <string name="st_today_done">Today is done. Come back tomorrow to keep your streak.</string>
+    <string name="st_today_todo_streak">Finish a quiz today to keep your %1$d-day streak.</string>
+    <string name="st_today_todo_none">Finish a quiz today to start a streak.</string>
+    <string name="st_heatmap_title">Daily activity</string>
+    <string name="st_legend_less">Less</string>
+    <string name="st_legend_more">More</string>
+    <string name="st_tap_hint">Tap a day to see its details.</string>
+    <string name="st_day_none">%1$s: no quizzes completed.</string>
+    <string name="st_day_detail">%1$s: %2$d quizzes, %3$d points, %4$d%% accuracy.</string>
+    <string name="st_milestones_title">Milestones</string>
+    <string name="st_milestone_earned">%1$d-day streak</string>
+    <string name="st_next_milestone">Next badge: %1$d days (%2$d to go)</string>
+    <string name="st_all_milestones">All badges earned. Amazing consistency!</string>
+    <string name="st_recent_title">Recent activity</string>
+    <string name="st_recent_empty">No activity yet. Complete your first quiz to light up the calendar.</string>
+    <string name="st_recent_row">%1$s · %2$d quizzes · %3$d pts</string>
+    <string name="st_rules_note">One active day needs at least one valid quiz (answered at least half the questions). Several quizzes on a day count once for the streak. Days follow your local calendar.</string>
+
+    <!-- Class analytics -->
+    <string name="an_range_7">7 days</string>
+    <string name="an_range_30">30 days</string>
+    <string name="an_range_90">90 days</string>
+    <string name="an_range_all">All time</string>
+    <string name="an_subject">Subject</string>
+    <string name="an_quiz">Quiz</string>
+    <string name="an_all_subjects">All subjects</string>
+    <string name="an_all_quizzes">All quizzes</string>
+    <string name="an_empty">No quiz results match these filters yet.</string>
+    <string name="an_overview">Class overview</string>
+    <string name="an_enrolled">Students enrolled</string>
+    <string name="an_participants">Students who played</string>
+    <string name="an_participation">Participation rate</string>
+    <string name="an_completed">Quizzes completed</string>
+    <string name="an_avg_score">Average score</string>
+    <string name="an_avg_accuracy">Average accuracy</string>
+    <string name="an_highest">Highest score</string>
+    <string name="an_top_student">Top student</string>
+    <string name="an_avg_time">Average time</string>
+    <string name="an_not_available">n/a</string>
+    <string name="an_highest_value">%1$d%% (%2$s)</string>
+    <string name="an_top_value">%1$s · %2$d pts</string>
+    <string name="an_avg_points_value">%1$.1f pts</string>
+    <string name="an_you_title">You vs the class</string>
+    <string name="an_you_attempts">Quizzes completed: %1$d</string>
+    <string name="an_you_avg">Your average accuracy: %1$d%%  (class %2$d%%)</string>
+    <string name="an_you_best">Best score: %1$d/%2$d (%3$d%%)</string>
+    <string name="an_you_rank">Class rank: #%1$d of %2$d students</string>
+    <string name="an_you_delta_up">You are %1$.1f points above the class average.</string>
+    <string name="an_you_delta_down">You are %1$.1f points below the class average.</string>
+    <string name="an_you_delta_same">You are right at the class average.</string>
+    <string name="an_you_trend">Recent trend: %1$s</string>
+    <string name="an_you_trend_delta">Recent trend: %1$s (%2$+.0f points)</string>
+    <string name="an_you_strongest">Strongest subject: %1$s (%2$d%%)</string>
+    <string name="an_you_weakest">Needs work: %1$s (%2$d%%)</string>
+    <string name="an_you_none">You have no results in this selection yet.</string>
+    <string name="an_chart_over_time">Accuracy over time</string>
+    <string name="an_chart_over_time_sub">Class average and you, % correct</string>
+    <string name="an_chart_participation">Participation</string>
+    <string name="an_chart_participation_day">Quizzes completed per day</string>
+    <string name="an_chart_participation_week">Quizzes completed per week</string>
+    <string name="an_chart_distribution">Score distribution</string>
+    <string name="an_chart_distribution_sub">Number of attempts by score range (%)</string>
+    <string name="an_chart_subjects">Accuracy by subject</string>
+    <string name="an_chart_quizzes">Accuracy by quiz</string>
+    <string name="an_chart_groups_sub">Class average vs you, % correct</string>
+    <string name="an_chart_improvement">Your improvement</string>
+    <string name="an_chart_improvement_sub">Your last attempts, % correct</string>
+    <string name="an_series_class">Class</string>
+    <string name="an_series_you">You</string>
+    <string name="an_empty_chart">Not enough data yet</string>
+    <string name="an_definitions">Attempts are every finished quiz. Completed means valid attempts (at least half of the questions answered). Participants are unique students with at least one completed quiz.</string>
+</resources>

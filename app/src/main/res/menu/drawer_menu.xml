@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/homeFragment" android:title="@string/nav_home" />
+        <item android:id="@+id/myQuizzes" android:title="@string/nav_my_quizzes" />
+        <item android:id="@+id/createQuiz" android:title="@string/nav_create_quiz" />
+        <item android:id="@+id/ghostMatches" android:title="@string/nav_ghost_matches" />
+        <item android:id="@+id/aiTests" android:title="@string/nav_ai_tests" />
+        <item android:id="@+id/leaderboard" android:title="@string/nav_leaderboard" />
+        <item android:id="@+id/classLeaderboard" android:title="@string/nav_class_leaderboard" />
+        <item android:id="@+id/activityStreaks" android:title="@string/nav_activity" />
+        <item android:id="@+id/classAnalytics" android:title="@string/nav_class_analytics" />
+        <item android:id="@+id/personas" android:title="@string/nav_personas" />
+        <item android:id="@+id/profile" android:title="@string/nav_profile" />
+        <item android:id="@+id/settings" android:title="@string/nav_settings" />
+        <item android:id="@+id/about" android:title="@string/nav_about" />
+    </group>
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/nav_privacy" android:title="@string/nav_privacy" />
+        <item android:id="@+id/nav_logout" android:title="@string/nav_logout" />
+    </group>
+</menu>

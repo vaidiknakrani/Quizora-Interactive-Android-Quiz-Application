@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="brand_purple">#9D05FF</color>
+    <color name="brand_purple_dark">#6A00B3</color>
+    <color name="brand_accent">#00D4FF</color>
+
+    <!-- Quizora design system -->
+    <color name="brand_indigo">#5B2EFF</color>
+    <color name="brand_pink">#FF4FA3</color>
+    <color name="flame_orange">#FF9F1C</color>
+    <color name="flame_red">#FF5A36</color>
+    <color name="screen_bg">#F5F2FF</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_stroke">#E3DAFF</color>
+    <color name="text_primary">#1E1633</color>
+    <color name="text_secondary">#6B6483</color>
+    <color name="option_selected_bg">#EFE3FF</color>
+    <color name="success">#2E9E5B</color>
+    <color name="error_red">#D32F2F</color>
+</resources>

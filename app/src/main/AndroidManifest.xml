@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".QuizApp"
+        android:allowBackup="false"
+        android:icon="@drawable/adminlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AdminQuiz">
+
+        <activity android:name=".activities.SplashActivity2" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.LoginActivity2" />
+        <activity android:name=".activities.RegisterActivity2" />
+        <activity android:name=".activities.MainActivity2" />
+        <activity android:name=".activities.QuizDetailActivity2" />
+        <activity
+            android:name=".activities.CreateQuizActivity2"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.QuizActivity2"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.ResultActivity2" />
+        <activity android:name=".activities.AnswerReviewActivity2" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+</manifest>

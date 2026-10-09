@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvOffline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#33FF9800"
+            android:padding="10dp"
+            android:text="You are offline. AI tests require an internet connection; your saved AI tests below still work."
+            android:visibility="gone" />
+
+            <TextView style="@style/Quiz.Label" android:text="CATEGORY" />
+            <Spinner android:id="@+id/spCategory" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilCustom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Custom category"
+            android:visibility="gone">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etCustomCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView style="@style/Quiz.Label" android:text="DIFFICULTY" />
+            <Spinner android:id="@+id/spDifficulty" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <TextView style="@style/Quiz.Label" android:text="NUMBER OF QUESTIONS" />
+            <Spinner android:id="@+id/spCount" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <TextView style="@style/Quiz.Label" android:text="QUESTION TYPE" />
+            <Spinner android:id="@+id/spType" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <TextView style="@style/Quiz.Label" android:text="TIME" />
+            <Spinner android:id="@+id/spTime" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:hint="Custom instruction (e.g. Focus on Java Collections and HashMap)">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etInstruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine|textCapSentences" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGenerate"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="GENERATE AI TEST" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/errorBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#D32F2F" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRetry"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Try Again" />
+        </LinearLayout>
+
+        <TextView style="@style/Quiz.Label" android:layout_marginTop="24dp" android:text="YOUR RECENT AI TESTS" />
+
+        <TextView
+            android:id="@+id/tvRecentEmpty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None yet." />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerRecent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

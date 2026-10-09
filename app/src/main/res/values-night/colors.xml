@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="screen_bg">#120C20</color>
+    <color name="surface_card">#1E1632</color>
+    <color name="surface_stroke">#3A2C5E</color>
+    <color name="text_primary">#F3EEFF</color>
+    <color name="text_secondary">#B3A8D1</color>
+    <color name="option_selected_bg">#35215C</color>
+</resources>

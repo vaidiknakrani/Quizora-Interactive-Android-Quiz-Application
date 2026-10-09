@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment"
+        android:name="com.example.adminquiz.fragments.HomeFragment"
+        android:label="@string/home_title" />
+    <fragment android:id="@+id/myQuizzes"
+        android:name="com.example.adminquiz.fragments.MyQuizzesFragment"
+        android:label="@string/nav_my_quizzes" />
+    <fragment android:id="@+id/ghostMatches"
+        android:name="com.example.adminquiz.fragments.GhostMatchesFragment"
+        android:label="@string/nav_ghost_matches" />
+    <fragment android:id="@+id/aiTests"
+        android:name="com.example.adminquiz.fragments.AiTestFragment"
+        android:label="@string/nav_ai_tests" />
+    <fragment android:id="@+id/leaderboard"
+        android:name="com.example.adminquiz.fragments.LeaderboardFragment"
+        android:label="@string/nav_leaderboard" />
+    <fragment android:id="@+id/classLeaderboard"
+        android:name="com.example.adminquiz.fragments.ClassLeaderboardFragment"
+        android:label="@string/nav_class_leaderboard" />
+    <fragment android:id="@+id/activityStreaks"
+        android:name="com.example.adminquiz.fragments.ActivityStreakFragment"
+        android:label="@string/nav_activity" />
+    <fragment android:id="@+id/classAnalytics"
+        android:name="com.example.adminquiz.fragments.ClassAnalyticsFragment"
+        android:label="@string/nav_class_analytics" />
+    <fragment android:id="@+id/personas"
+        android:name="com.example.adminquiz.fragments.PersonasFragment"
+        android:label="@string/nav_personas" />
+    <fragment android:id="@+id/profile"
+        android:name="com.example.adminquiz.fragments.ProfileFragment"
+        android:label="@string/nav_profile" />
+    <fragment android:id="@+id/settings"
+        android:name="com.example.adminquiz.fragments.SettingsFragment"
+        android:label="@string/nav_settings" />
+    <fragment android:id="@+id/about"
+        android:name="com.example.adminquiz.fragments.AboutFragment"
+        android:label="@string/nav_about" />
+</navigation>
